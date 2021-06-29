@@ -36,7 +36,7 @@ function preload(){
 }
 
 function setup() {
-  createCanvas(600, 200);
+  createCanvas(displayWidth,400);
 
   var message = "This is a message";
  console.log(message)
@@ -84,6 +84,7 @@ function draw() {
   
   background(180);
   //displaying score
+  textSize(30)
   text("Score: "+ score, 500,50);
   
   
